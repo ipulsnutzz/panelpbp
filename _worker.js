@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = '88148567-2efb-4ce1-96b3-6aa4616cf1d3';
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
 const proxyIPs= ['bpb.yousef.isegaro.com'];
@@ -18,7 +18,7 @@ let dohURL = 'https://cloudflare-dns.com/dns-query';
 let trojanPassword = `bpb-trojan`;
 // https://emn178.github.io/online-tools/sha224.html
 // https://www.atatus.com/tools/sha224-to-hash
-let hashPassword = 'b5d0a5f7ff7aac227bc68b55ae713131ffdf605ca0da52cce182d513';
+let hashPassword = '4bf439febee7ba1194dd74162398c266abf5bf0cb1d1a5477ac13987';
 let panelVersion = '2.5.5';
 
 if (!isValidUUID(userID)) {
